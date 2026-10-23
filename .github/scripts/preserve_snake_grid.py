@@ -25,5 +25,6 @@ for name in ['contribution-snake.svg', 'contribution-snake-dark.svg']:
     if root.find(f"{ns}style[@id='{OVERRIDE_ID}']") is None:
         svg = svg.replace('</svg>', OVERRIDE + '</svg>')
     ET.fromstring(svg)
-    path.write_text(svg)
+    output = path.with_name(name.replace('contribution-snake', 'contribution-trail'))
+    output.write_text(svg)
     print(f'{name}: preserved {len(cells)} contribution cells; kept {len(snake)} animated snake segments.')

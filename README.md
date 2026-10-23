@@ -51,9 +51,9 @@ I build APIs, real-time applications, and software that puts AI to work.
 An animated snake explores the calendar while contribution squares stay visible.
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./profile/contribution-snake-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="./profile/contribution-snake.svg" />
-  <img src="./profile/contribution-snake.svg" width="100%" alt="Animated snake exploring my contribution calendar with contribution squares always visible" />
+  <source media="(prefers-color-scheme: dark)" srcset="./profile/contribution-trail-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="./profile/contribution-trail.svg" />
+  <img src="./profile/contribution-trail.svg" width="100%" alt="Animated snake exploring my contribution calendar with contribution squares always visible" />
 </picture>
 
 ---
