@@ -7,6 +7,7 @@ on:
     paths:
       - README.md
       - .github/workflows/profile.yml
+      - .github/scripts/activity_graph.py
   schedule:
     - cron: '23 4 * * *'
 
@@ -58,6 +59,12 @@ jobs:
             profile/contribution-snake-dark.svg?palette=github-dark
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Generate contribution activity chart
+        run: python3 .github/scripts/activity_graph.py
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_USER: Kraken-coder
 
       - name: Save refreshed graphics
         run: |

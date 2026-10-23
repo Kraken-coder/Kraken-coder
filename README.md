@@ -52,7 +52,7 @@ I build APIs, real-time applications, and software that puts AI to work.
 
 ### Recent contribution activity
 
-[![Recent activity graph](https://github-readme-activity-graph.vercel.app/graph?username=Kraken-coder&bg_color=0d1117&color=c9d1d9&line=38bdf8&point=ffffff&area=true&hide_border=true&custom_title=Recent%20contribution%20activity)](https://github.com/Kraken-coder?tab=overview)
+[![Recent activity graph](./profile/activity.svg)](https://github.com/Kraken-coder?tab=overview)
 
 ### A little movement
 
