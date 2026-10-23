@@ -48,10 +48,12 @@ I build APIs, real-time applications, and software that puts AI to work.
 
 ### A little movement
 
+An animated snake explores the calendar while contribution squares stay visible.
+
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="./profile/contribution-snake-dark.svg" />
   <source media="(prefers-color-scheme: light)" srcset="./profile/contribution-snake.svg" />
-  <img src="./profile/contribution-snake.svg" width="100%" alt="Animated snake following my contribution calendar" />
+  <img src="./profile/contribution-snake.svg" width="100%" alt="Animated snake exploring my contribution calendar with contribution squares always visible" />
 </picture>
 
 ---

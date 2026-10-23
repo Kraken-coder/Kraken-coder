@@ -9,6 +9,7 @@ on:
       - .github/workflows/profile.yml
       - .github/scripts/activity_graph.py
       - .github/scripts/contribution_summary.py
+      - .github/scripts/preserve_snake_grid.py
   schedule:
     - cron: '23 4 * * *'
 
@@ -57,6 +58,9 @@ jobs:
             profile/contribution-snake-dark.svg?palette=github-dark
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Keep contribution squares visible during snake animation
+        run: python3 .github/scripts/preserve_snake_grid.py
 
       - name: Generate contribution activity chart
         run: python3 .github/scripts/activity_graph.py
